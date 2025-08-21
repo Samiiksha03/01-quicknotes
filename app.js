@@ -1,3 +1,4 @@
+
 // app.js
 // This script sends notes to your Supabase REST API. You must create config.js with SUPABASE_URL and SUPABASE_ANON_KEY.
 
@@ -88,3 +89,5 @@ async function loadAndRenderNotes() {
 
 // initial load
 loadAndRenderNotes();
+
+
