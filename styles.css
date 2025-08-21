@@ -1,0 +1,97 @@
+/* ===== Reset & Base ===== */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f7f7f7;
+  padding: 20px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Container ===== */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* ===== Headings ===== */
+h1 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #2b7cff;
+}
+
+/* ===== Form Elements ===== */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border 0.2s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #2b7cff;
+  outline: none;
+}
+
+/* ===== Button ===== */
+button {
+  display: inline-block;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #2b7cff;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background: #1a5ecc;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+/* ===== Notes List ===== */
+#notesList {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+#notesList li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+#notesList li small {
+  display: block;
+  margin-top: 6px;
+  color: #666;
+  font-size: 12px;
+}
+
+/* ===== Messages ===== */
+#message {
+  margin: 10px 0;
+  color: green;
+  font-weight: 600;
+}

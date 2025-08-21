@@ -1,0 +1,4 @@
+# ignore local config and Node modules
+config.js
+node_modules/
+.env
