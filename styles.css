@@ -92,6 +92,20 @@ button:active {
   font-size: 12px;
 }
 
+/* sticky-note look & tilt */
+.note-card {
+  transform: rotate(var(--rot, 0deg));
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: grab;
+}
+.note-card:hover {
+  transform: rotate(var(--rot, 0deg)) scale(1.03);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+  cursor: pointer;
+}
+
+
+
 /* ===== Messages ===== */
 #message {
   margin: 10px 0;
